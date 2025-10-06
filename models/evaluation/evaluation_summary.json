@@ -1,0 +1,79 @@
+{
+  "model_performance": {
+    "train_accuracy": 0.29436119873817035,
+    "test_accuracy": 0.26230283911671926,
+    "overfitting_score": 0.032058359621451094
+  },
+  "per_class_metrics": [
+    {
+      "Class": "Class_0",
+      "Precision": 0.2850356294536817,
+      "Recall": 0.30112923462986196,
+      "F1-Score": 0.2928615009151922,
+      "Support": 1594
+    },
+    {
+      "Class": "Class_1",
+      "Precision": 0.2544927536231884,
+      "Recall": 0.2787301587301587,
+      "F1-Score": 0.26606060606060605,
+      "Support": 1575
+    },
+    {
+      "Class": "Class_2",
+      "Precision": 0.261219022103148,
+      "Recall": 0.24824952259707192,
+      "F1-Score": 0.2545691906005222,
+      "Support": 1571
+    },
+    {
+      "Class": "Class_3",
+      "Precision": 0.24617524339360222,
+      "Recall": 0.22125,
+      "F1-Score": 0.23304805793285055,
+      "Support": 1600
+    }
+  ],
+  "confusion_matrix": [
+    [
+      480,
+      423,
+      359,
+      332
+    ],
+    [
+      380,
+      439,
+      355,
+      401
+    ],
+    [
+      400,
+      430,
+      390,
+      351
+    ],
+    [
+      424,
+      433,
+      389,
+      354
+    ]
+  ],
+  "roc_auc_scores": {
+    "Class_0": 0.5237157381689976,
+    "Class_1": 0.5227316244441114,
+    "Class_2": 0.49992118363625465,
+    "Class_3": 0.4973308280590717
+  },
+  "confidence_stats": {
+    "mean_confidence": 0.2537897852008878,
+    "min_confidence": 0.25,
+    "max_confidence": 0.26284461405313514,
+    "low_confidence_count": 6340
+  },
+  "error_analysis": {
+    "total_misclassified": 4677,
+    "misclassification_rate": 0.7376971608832807
+  }
+}
